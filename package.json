@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-nodejs-api",
+  "version": "1.0.0",
+  "description": "Basic configuration and packages for starting a new nodejs API",
+  "main": "index.js",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development nodemon ./src/index.js",
+    "testing": "cross-env NODE_ENV=testing node ./src/index.js",
+    "production": "cross-env NODE_ENV=production node ./src/index.js",
+    "test": "cross-env NODE_ENV=development jest  --testTimeout=30000 --detectOpenHandles --watch"
+  },
+  "author": "Cristian Cruz Benel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.8",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  }
+}
