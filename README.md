@@ -2,7 +2,7 @@
 
 - Min NodeJS 16.0.0
 
-## Execution of project
+# Execution of project
 
 ### Development
 
@@ -16,6 +16,6 @@
 
 - npm run production
 
-## Execution of tests
+# Execution of tests
 
 - npm run test

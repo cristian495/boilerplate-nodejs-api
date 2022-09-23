@@ -10,7 +10,7 @@ const returnError = (err, req, res, next) => {
 };
 
 function logError(err, req, res, next) {
-  console.log(err);
+  // console.log(err);
   next(err);
 }
 

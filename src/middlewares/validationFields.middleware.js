@@ -23,7 +23,6 @@ let validateFields = (validationRule) => {
           httpError: 400,
           code: "wrong-fields",
         });
-        // return sendErrorMessage(validation.errors.errors, res, 400);
       } else {
         next();
       }
@@ -34,7 +33,6 @@ let validateFields = (validationRule) => {
 const rules = {
   signup: {
     email: "required|email",
-    username: "required|string",
     password: "required|string|min:6",
   },
 };
